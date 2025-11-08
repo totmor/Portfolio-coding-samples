@@ -1,0 +1,167 @@
+﻿<Window x:Class="kickoffProjectinformatica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kickoffProjectinformatica"
+        mc:Ignorable="d"
+        Title="Contact Tracing" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <!-- Menu -->
+        <Menu Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="8" >
+            <MenuItem x:Name="menuItemOpenFile" Header="Open File"  Click="menuItemOpenFile_Click"/>
+            <MenuItem x:Name="menuNewForm" Header="New Form" Click="menuNewForm_Click"/>
+
+        </Menu>
+        <!-- Label-Tittel -->
+        <Label Content="Contact tracing" Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="2" FontSize="22"  FontWeight="ExtraBlack"/>
+        <!--  formulier textboxen en textblocken, datepicker en comboboxes -->
+        <TextBlock Text="Nummer:" Grid.Row="4" Grid.Column="1"/>
+        <TextBox x:Name="textBoxId" Grid.Row="4" Grid.Column="2" IsReadOnly="True" IsEnabled="False"/>
+
+        <TextBlock Text="Naam:" Grid.Row="5" Grid.Column="1"/>
+        <TextBox x:Name="textBoxNaam" Grid.Row="5" Grid.Column="2"  KeyUp="textBoxNaam_KeyUp"/>
+
+        <TextBlock Text="Voornaam:" Grid.Row="6" Grid.Column="1"/>
+        <TextBox x:Name="textBoxVoornaam" Grid.Row="6" Grid.Column="2" IsEnabled="False" KeyUp="textBoxVoornaam_KeyUp"/>
+        
+        <TextBlock Text="Geboortedatum:" Grid.Row="7" Grid.Column="1"/>
+        
+        <DatePicker x:Name="dpGeboorte" Grid.Row="7" Grid.Column="2" IsEnabled="False" SelectedDateChanged="dpGeboorte_SelectedDateChanged"/>
+
+        <TextBlock Text="Rijksregisternummer:" Grid.Row="8" Grid.Column="1"/>
+        <TextBox x:Name="textBoxRRN" Grid.Row="8" Grid.Column="2" IsEnabled="False" KeyUp="textBoxRRN_KeyUp"/>
+
+        <TextBlock Text="Geslacht:" Grid.Row="9" Grid.Column="1"/>
+        <ComboBox x:Name="comboBoxGeslacht" Grid.Row="9" Grid.Column="2" IsEnabled="False" SelectionChanged="comboBoxGeslacht_SelectionChanged">
+            <ComboBoxItem Content="Man"/>
+            <ComboBoxItem Content="Vrouw"/>
+        </ComboBox>
+        
+        
+        <TextBlock Text="Straat:" Grid.Row="10" Grid.Column="1"/>
+        <TextBox x:Name="textBoxStraatNaam" Grid.Row="10" Grid.Column="2"  IsEnabled="False" KeyUp="textBoxStraatNaam_KeyUp"/>
+
+        <TextBlock Text="Huisnummer:" Grid.Row="11" Grid.Column="1"/>
+        <TextBox x:Name="textBoxHuisNr" Grid.Row="11" Grid.Column="2"  IsEnabled="False" KeyUp="textBoxHuisNr_KeyUp"/>
+
+        <TextBlock Text="Postcode:" Grid.Row="12" Grid.Column="1"/>
+        <TextBox x:Name="textBoxpostcode" Grid.Row="12" Grid.Column="2"  IsEnabled="False" KeyUp="textBoxpostcode_KeyUp"/>
+
+        <TextBlock Text="Gemeente:" Grid.Row="13" Grid.Column="1"/>
+        <TextBox x:Name="textBoxGemeente" Grid.Row="13" Grid.Column="2"  IsEnabled="False" KeyUp="textBoxGemeente_KeyUp"/>
+
+        <TextBlock Text="Telefoon/Gsm:" Grid.Row="14" Grid.Column="1"/>
+        <TextBox x:Name="textBoxTelefoon" Grid.Row="14" Grid.Column="2"  IsEnabled="False" KeyUp="textBoxTelefoon_KeyUp"/>
+
+        <TextBlock Text="E-mail:" Grid.Row="15" Grid.Column="1"/>
+        <TextBox x:Name="textBoxEmail" Grid.Row="15" Grid.Column="2"  IsEnabled="False" KeyUp="textBoxEmail_KeyUp"/>
+        
+        <TextBlock Text="Aantal gezinsleden:" Grid.Row="16" Grid.Column="1"/>
+        <TextBox x:Name="textBoxGezinsLeden" Grid.Row="16" Grid.Column="2"  IsEnabled="False" KeyUp="textBoxGezinsLeden_KeyUp"/>
+
+        <TextBlock Text="Type contact:" Grid.Row="17" Grid.Column="1"/>
+        <ComboBox x:Name="comboBoxTypeContactCorona" Grid.Row="17" Grid.Column="2" IsEnabled="False" SelectionChanged="comboBoxTypeContactCorona_SelectionChanged">
+            <ComboBoxItem Content="Gezin"/>
+            <ComboBoxItem Content="Werk"/>
+            <ComboBoxItem Content="School"/>
+            <ComboBoxItem Content="Sportclub"/>
+            <ComboBoxItem Content="Vriend"/>
+            <ComboBoxItem Content="Privé"/>
+        </ComboBox>
+
+        <TextBlock Text="Reeds gecontacteerd?" Grid.Row="18" Grid.Column="1"/>
+        
+        
+        <ComboBox x:Name="comboBoxGebeldOfNiet_Ja_Nee" Grid.Row="18" Grid.Column="2"
+                 IsEnabled="False" SelectionChanged="comboBoxGebeldOfNiet_Ja_Nee_SelectionChanged">
+            <ComboBoxItem Content="Ja"/>
+            <ComboBoxItem Content="Nee"/>
+        </ComboBox>
+
+        <!-- toevoegen knop -->
+        <Button x:Name="ButtonToevoegen" Grid.Row="19" Grid.Column="2" Content="Toevoegen"
+                IsEnabled="False" Click="ButtonToevoegen_Click"/>
+        <!-- knop wijzigen onder listbox -->
+        <Button x:Name="buttonWijzigen" Grid.Row="19" Grid.Column="4" Content="Wijzigen" 
+                 IsEnabled="False" Click="buttonWijzigen_Click"/>
+
+        <!--Knop definieve wijziging  -->
+        <Button x:Name="buttonWijzigen2"  Grid.Row="19" Grid.Column="2" Content="Wijzigingen opslaan" 
+                Visibility="Hidden" Click="buttonWijzigen2_Click"/>
+        <!--Listbox  -->
+        <ListBox x:Name="listBoxx" Grid.Column="4" Grid.Row="8"
+                 Grid.ColumnSpan="2" Grid.RowSpan="10"
+                 SelectionChanged="listBoxx_SelectionChanged"/>
+        <!-- reset button zorgt ervoor dat je op de laatste positie bent van de csv file en dat je een nieuwe contact kan maken -->
+        <Button x:Name="buttonReset" Grid.Column="4" Grid.Row="3" Content="Laatse positie" Click="buttonReset_Click"
+                IsEnabled="false"/>
+        <!-- verwijderen knop -->
+        <Button x:Name="buttonDelete" Grid.Column="5" Grid.Row="19" Content="Verwijderen" Click="buttonDelete_Click"
+                IsEnabled="False"/>
+        <!-- Vanaf hier het zoeksysteem... -->
+        <Button x:Name="btnZoeken1" Grid.Column="4" Grid.Row="4" Content="Zoeken" Click="btnZoeken1_Click_1"/>
+        <TextBlock x:Name="textBlockZoekCriterium"  Grid.Column="5" Grid.Row="4" Visibility="Hidden"/>
+        <ComboBox x:Name="comboBoxZoekCriterium" Grid.Column="5" Grid.Row="5" Visibility="Hidden" SelectionChanged="comboBoxZoekCriterium_SelectionChanged">
+            <ComboBoxItem Content="Naam"/>
+            <ComboBoxItem Content="Voornaam"/>
+            <ComboBoxItem Content="RRN"/>
+            <ComboBoxItem Content="Geslacht"/>
+            <ComboBoxItem Content="Type contact"/>
+            <ComboBoxItem Content="Opgebeld:Ja-Nee"/>
+        </ComboBox>
+        <TextBox x:Name="textBoxZoeken" Grid.Column="5" Grid.Row="6" Visibility="Hidden"/>
+        <ComboBox x:Name="comboBoxZoekenMofV" Grid.Column="5" Grid.Row="6" Visibility="Hidden">
+            <ComboBoxItem Content="Man"/>
+            <ComboBoxItem Content="Vrouw"/>
+        </ComboBox>
+        <ComboBox x:Name="comboboxZoekenTypeContact" Grid.Column="5" Grid.Row="6" Visibility="Hidden">
+            <ComboBoxItem Content="Gezin"/>
+            <ComboBoxItem Content="Werk"/>
+            <ComboBoxItem Content="School"/>
+            <ComboBoxItem Content="Sportclub"/>
+            <ComboBoxItem Content="Vriend"/>
+            <ComboBoxItem Content="Privé"/>
+        </ComboBox>
+
+        <ComboBox x:Name="comboBoxZoekenWelOfNietOpgebeld"  Grid.Column="5" Grid.Row="6" Visibility="Hidden">
+            <ComboBoxItem Content="Ja"/>
+            <ComboBoxItem Content="Nee"/>
+        </ComboBox>
+        <Button x:Name="btnOk"  Grid.Column="5" Grid.Row="7" Visibility="Hidden" Click="btnOk_Click" Content="Zoek"/>
+        <!-- Einde Zoeksysteem -->
+    </Grid>
+</Window>
