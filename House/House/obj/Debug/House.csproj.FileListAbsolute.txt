@@ -1,0 +1,15 @@
+C:\Users\Abdelmounaïm\Documents\GitHub\linq-totmor\House\House\bin\Debug\House.exe.config
+C:\Users\Abdelmounaïm\Documents\GitHub\linq-totmor\House\House\bin\Debug\House.exe
+C:\Users\Abdelmounaïm\Documents\GitHub\linq-totmor\House\House\bin\Debug\House.pdb
+C:\Users\Abdelmounaïm\Documents\GitHub\linq-totmor\House\House\obj\Debug\House.csproj.AssemblyReference.cache
+C:\Users\Abdelmounaïm\Documents\GitHub\linq-totmor\House\House\obj\Debug\House.csproj.CoreCompileInputs.cache
+C:\Users\Abdelmounaïm\Documents\GitHub\linq-totmor\House\House\obj\Debug\House.exe
+C:\Users\Abdelmounaïm\Documents\GitHub\linq-totmor\House\House\obj\Debug\House.pdb
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\bin\Debug\House.exe.config
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\bin\Debug\House.exe
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\bin\Debug\House.pdb
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\obj\Debug\House.csproj.AssemblyReference.cache
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\obj\Debug\House.exe.config
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\obj\Debug\House.csproj.CoreCompileInputs.cache
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\obj\Debug\House.exe
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTT22-apps\linq-totmor\House\House\obj\Debug\House.pdb
