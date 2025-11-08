@@ -1,0 +1,12 @@
+C:\Users\Abdelmounaïm\Documents\GitHub\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\bin\Debug\TellerDomainAbdelmounaim.dll
+C:\Users\Abdelmounaïm\Documents\GitHub\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\bin\Debug\TellerDomainAbdelmounaim.pdb
+C:\Users\Abdelmounaïm\Documents\GitHub\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.csproj.AssemblyReference.cache
+C:\Users\Abdelmounaïm\Documents\GitHub\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.csproj.CoreCompileInputs.cache
+C:\Users\Abdelmounaïm\Documents\GitHub\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.dll
+C:\Users\Abdelmounaïm\Documents\GitHub\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.pdb
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTO2022\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\bin\Debug\TellerDomainAbdelmounaim.dll
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTO2022\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\bin\Debug\TellerDomainAbdelmounaim.pdb
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTO2022\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.csproj.AssemblyReference.cache
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTO2022\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.csproj.CoreCompileInputs.cache
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTO2022\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.dll
+E:\Order-2022 (Nooit verwijderen-abdelmounaim)\hbo5-informatica\CSharpProgrammas\2022-PTO2022\orp22a-teller-totmor\TellerDevice.solution\TellerDomainAbdelmounaim\obj\Debug\TellerDomainAbdelmounaim.pdb

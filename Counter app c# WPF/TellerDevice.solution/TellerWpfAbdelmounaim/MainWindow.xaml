@@ -1,0 +1,22 @@
+﻿<Window x:Class="TellerWpfAbdelmounaim.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TellerWpfAbdelmounaim"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300" Background="Green">
+    <Grid >
+        <Grid Margin="25" Background="Gold">
+            <TextBox x:Name="textboxTellerScreen"   Background="Green" Margin="5" Text="0" FontSize="75"
+                     Height="100" Width="150" HorizontalAlignment="Center" VerticalAlignment="Top"
+                     Foreground="Gold" IsReadOnly="True"/>
+            <Button x:Name="buttonVerhoog" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,100,0,0"
+                     FontFamily="Segoe Mdl2 Assets" Content="&#xE710;" FontWeight="ExtraBold" Click="buttonVerhoog_Click"/>
+
+            <Button x:Name="buttonReset" Content="Reset" FontWeight="Heavy" Height="50" Width="50" Margin="0,100,0,0" Click="buttonReset_Click"/>
+
+            <Button x:Name="buttonOnOff" Content="On" FontWeight="Heavy" Height="50" Width="50" HorizontalAlignment="Right" Margin="0,100,0,0" Click="buttonOnOff_Click"/>
+        </Grid>
+    </Grid>
+</Window>
